@@ -36,3 +36,59 @@ File system management and organization
 System operations (shutdown, restart, sleep)
 
 Custom automation script integration
+🛠️ Installation & Setup
+Prerequisites
+Python 3.8 or higher
+
+Windows/Linux/Mac OS
+
+Microphone and speakers
+
+Quick Start
+bash
+# 1. Clone repository
+git clone https://github.com/yourusername/jarvis-ai.git
+cd jarvis-ai
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run Jarvis
+python assistant.py
+# or launch with UI
+python ui.py
+Dependencies
+Key packages include:
+
+speechrecognition - Voice command processing
+
+pyttsx3 - Text-to-speech engine
+
+pyautogui - GUI automation
+
+tkinter - Graphical interface
+
+Custom automation modules
+
+🎯 Usage
+Basic Commands
+"Jarvis, open Chrome" - Launches web browser
+
+"Search for AI news" - Performs web search
+
+"Play some music" - Starts media playback
+
+"Send email to John" - Initiates email client
+
+"What's the weather?" - Fetches weather data
+
+"Shutdown system" - Performs system operations
+
+UI Controls
+Voice activation toggle
+
+Command history viewer
+
+Settings customization panel
+
+System status dashboard
