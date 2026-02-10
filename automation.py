@@ -18,4 +18,4 @@ def open_chrome():
 
 def open_vscode():
     os.system("code")
-h
+
